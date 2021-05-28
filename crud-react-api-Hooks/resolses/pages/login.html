@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+       <script src="https://kit.fontawesome.com/5892669013.js" crossorigin="anonymous"></script>
+       <title>App JS</title>
+</head>
+
+<body class="bg bg-dark">
+       <div class="bg bg-dark container-fluid h-100">
+
+              <div class="row justify-content-center align-items-center h-100">
+
+                     <div class="col col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                            <br>
+                            <br>
+                            <br>
+                            <h1 class="text-light text-center display-1">Login</h1>
+                            <br>
+                            <br>
+                            <form id="formLogin">
+                                   <div class="form-group">
+                                          <label class="text-light" for="nombre">User:</label>
+                                          <div class="input-group">
+                                                 <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i
+                                                                      class="fas fa-user"></i></span>
+                                                 </div>
+                                                 <input type="text" required="text" class="form-control" id="textUser"
+                                                        name="textNombre">
+                                          </div>
+                                   </div>
+                                   <br>
+                                   <div class="form-group">
+                                          <label class="text-light" for="passWord">Password:</label>
+                                          <div class="input-group">
+                                                 <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                                 </div>
+                                                 <input type="password" class="form-control" id="textPassword"
+                                                        required="text" name="textPassWord">
+                                          </div>
+                                   </div>
+                                   <br>
+                                   <br>
+                                   <div class="col text-center">
+                                          <input type="submit" class="btn btn-success w-50" id="btnAcceder"
+                                                 value="Acceder">
+                                   </div>
+                                   <br>
+                                   <p id="message"></p>
+                            </form>
+                     </div>
+              </div>
+       </div>
+
+       <script src="../scripts/login.js"></script>
+
+</body>
+
+</html>

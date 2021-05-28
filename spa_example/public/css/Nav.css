@@ -1,0 +1,15 @@
+.navbar {
+       background: rgb(20, 20, 20) !important;
+}
+
+.bg-dark {
+       background: rgb(20, 20, 20) !important;
+}
+
+.nav-link {
+       color: #fff !important;
+}
+
+.btnGetStarted {
+       font-size: 14px !important;
+}

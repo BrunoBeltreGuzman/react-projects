@@ -1,0 +1,64 @@
+body {
+       background: rgb(10, 10, 10) !important;
+       font-family: "Oswald", sans-serif !important;
+       overflow: hidden !important;
+       overflow: auto !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+       color: rgb(255, 255, 255) !important;
+}
+
+p {
+       color: rgb(180, 180, 180) !important;
+}
+
+hr {
+       background-color: rgb(180, 180, 180) !important;
+}
+
+.index {
+       width: 100vw !important;
+       height: 100vh !important;
+}
+
+.btn-success {
+       color: #fff;
+       background-color: #0e3d10;
+       border-color: #175e1a;
+}
+.btn-success:hover {
+       color: #fff;
+       background-color: #245526;
+       border-color: #2c742e;
+}
+.btn-success.focus,
+.btn-success:focus {
+       color: #fff;
+       background-color: #245526;
+       border-color: #2c742e;
+       box-shadow: 0 0 0 0.2rem rgba(72, 193, 76, 0.5);
+}
+.btn-success.disabled,
+.btn-success:disabled {
+       color: #fff;
+       background-color: #0e3d10;
+       border-color: #1d7221;
+}
+.btn-success:not(:disabled):not(.disabled).active,
+.btn-success:not(:disabled):not(.disabled):active,
+.show > .btn-success.dropdown-toggle {
+       color: #fff;
+       background-color: #2c742e;
+       border-color: #1d821f;
+}
+.btn-success:not(:disabled):not(.disabled).active:focus,
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.show > .btn-success.dropdown-toggle:focus {
+       box-shadow: 0 0 0 0.2rem rgba(72, 193, 76, 0.5);
+}
